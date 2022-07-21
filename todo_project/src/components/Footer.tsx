@@ -8,7 +8,7 @@ const Footer = () => {
 
     <footer>
         <p className = {styles.footer}>
-            <span> React + TS - Todo Project </span> @ 2022
+            <span> Todo Project </span> @ 2022
         </p>
     </footer>
 

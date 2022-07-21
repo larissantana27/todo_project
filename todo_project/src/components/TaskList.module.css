@@ -1,0 +1,40 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 2rem auto;
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 1rem;
+    border-color: #0e706b;
+  }
+  
+  .details {
+    text-align: left;
+  }
+  
+  .details h4 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .actions i {
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #145e4b;
+    color: rgb(193, 210, 214);
+    padding: 0.4em;
+    transition: 0.5s;
+  }
+  
+  .actions i:hover {
+    color: #f8fafa;
+  } 

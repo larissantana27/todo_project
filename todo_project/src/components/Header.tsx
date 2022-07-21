@@ -7,7 +7,7 @@ const Header = () => {
   return (
 
     <header className = {styles.header}>
-        <h1> React + TS -{'>'} Todo Project </h1>
+        <h1> Todo Project - Tasks Manager </h1>
     </header>
 
   )
