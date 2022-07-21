@@ -1,10 +1,9 @@
 import React from 'react';
 
-import './App.css';
-
-import Footer from './components/Footer';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
+import styles from './App.module.css';
 
 function App() {
 
@@ -12,7 +11,9 @@ function App() {
     
     <div>
       <Header />
-      <h1> Content... </h1>
+        <main className = {styles.main}>
+          <h1> Content... </h1>
+        </main>
       <Footer/>
     </div>
    
